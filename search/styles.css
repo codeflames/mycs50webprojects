@@ -1,0 +1,79 @@
+#oneGoogleBar img{
+    padding-top: 109px;
+    margin-bottom: 15px;
+    /* height: 100px; */
+}
+#oneGoogleBar{
+    
+    margin-top: 47px;
+}
+.searchbar{
+
+        background: #fff;
+        display: flex;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        border-radius: 24px;
+        height: 44px;
+        padding-left:16px;
+        padding-right: 16px;
+        margin: 0 auto;
+        width: 582px;
+        
+}
+
+.searchbar:hover{
+    background: #fff;
+    background-color: rgb(255, 255, 255);
+
+    border: 1px solid #dfe1e5;
+    border-top-color: rgb(223, 225, 229);
+    border-right-color: rgb(223, 225, 229);
+    border-bottom-color: rgb(223, 225, 229);
+    border-left-color: rgb(223, 225, 229);
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    
+}
+
+.internalsearchbar{
+    flex: 1;
+display: flex;
+padding: 5px 8px 0 16px;
+    padding-left: 16px;
+padding-left: 14px;
+width: auto;
+border: none;
+/* width: 560px; */
+}
+
+.seperator{
+    height: 72px;
+    padding-top: 18px;
+}
+.seperator input[type="submit"]{
+    border: none;
+}
+
+seperator input[type="submit"]{
+    border-color: lightslategrey;
+}
+
+/* .seperator input[type="submit"]:hover{
+    border-radius: 4px;
+color: #3c4043;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+} */
