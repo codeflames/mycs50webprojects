@@ -16,28 +16,34 @@
 </head>
 
 <body>
-    <div class="container text-center">
-        <div class=" container justify-content-end">
-            <a href="#">image search</a>
-            <a href="#">advanced search</a>
-        </div>
-        <div id="oneGoogleBar">
-            <img src="/googlelogo_color_272x92dp.png" alt="">
-        </div>
-        <div class="container formd">
-            <form action="https://google.com/search">
-                <div class="searchbar">
-                    <input type="text" class="internalsearchbar" name="q">
-                </div>
-                <div class="seperator">
-                    <div>
-                        <input type="submit" class="btn btn-outline-dark" value="Google Search">
-                        <input type="submit" value="I'm Feeling Lucky">
-                    </div>
-                </div>
-                
+    <div>
+        <div class="container placement">
+            <div>
+                <a class="imgsearch" href="/search/imagesearch.html">Image Search</a>
+                <a class="advsearch" href="#">Advanced Search</a>
+            </div>
 
-            </form>
+        </div>
+
+        <div class="container text-center">
+
+            <div id="oneGoogleBar">
+                <img src="/search/googlelogo_color_272x92dp.png" alt="search">
+            </div>
+            <div class="container">
+                <form action="https://google.com/">
+                    <div class="container searchbar">
+                        <input type="text" class="internalsearchbar" name="q">
+                    </div>
+                    
+                    <div class="seperator">
+                        <div>
+                            <input type="submit" class="submit" value="Google Search">
+                            <input type="submit" class="submit" name="btnl" value="I'm Feeling Lucky">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>
