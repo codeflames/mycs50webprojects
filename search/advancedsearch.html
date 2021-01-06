@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Search</title>
+
+
+</head>
+
+<body class="advancedbody">
+    <div>
+        <div class="container placement">
+            <div>
+                <a class="imgsearch" href="/search/index.html">google search</a>
+            </div>
+
+        </div>
+
+        <div class="appbar">
+            Advanced Search
+        </div>
+
+        <div class="advancedborder"></div>
+
+        <div>
+            <div class="form-wrapper" id="formtopic">
+                <div class="one">
+                    <p>Find pages with...</p>
+                </div>
+                <div class="two">
+                    <div>&nbsp;</div>
+                </div>
+                <div class="three">
+                    <p>To do this in the search box.</p>
+                </div>
+            </div>
+            <form action="https://www.google.com/search" method="GET" name="f">
+                <div class="form-wrapper">
+                    <div class="one">
+                        <p>all these words:</p>
+                    </div>
+                    <div class="two">
+                        <input type="text" class="advancedinput" name="as_q">
+                    </div>
+                    <div class="three">
+                        <p>Type the important words:<span class="threequote">tri-colour rat terrier</span></p>
+                    </div>
+                </div>
+                <!-- second line -->
+                <div class="form-wrapper">
+                    <div class="one">
+                        <p>this exact word or phrase:</p>
+                    </div>
+                    <div class="two">
+                        <input type="text" class="advancedinput" name="as_epq">
+                    </div>
+                    <div class="three">
+                        <p>put exact words in quotes: <span class="threequote">"rat terrier"</span></p>
+                    </div>
+                </div>
+                <!-- _third line -->
+
+                <div class="form-wrapper">
+                    <div class="one">
+                        <p>any of these words:</p>
+                    </div>
+                    <div class="two">
+                        <input type="text" class="advancedinput" name="as_oq">
+                    </div>
+                    <div class="three">
+                        <p>Type OR between all the words you want: <span class="threequote">miniature OR standard</span></p>
+                    </div>
+                </div>
+
+                <!-- fourth line -->
+
+                <div class="form-wrapper">
+                    <div class="one">
+                        <p>none of these words:</p>
+                    </div>
+                    <div class="two">
+                        <input type="text" class="advancedinput" name="as_eq">
+                    </div>
+                    <div class="three">
+                        <p>Put a minus sign just before words that you don't want: <span class="threequote">-rodent, -"Jack Russell"</span></p>
+                    </div>
+                </div>
+
+                <!-- submit line -->
+                <div class="form-wrapper">
+                    <div class="one">
+                        <p></p>
+                    </div>
+                    <div class="two">
+                        <input type="submit" class="advancedsubmit" value="Advanced Search">
+                    </div>
+                    <div class="three">
+                       
+                    </div>
+                </div>
+               
+            </form>
+            
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
